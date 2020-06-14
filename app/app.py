@@ -14,7 +14,7 @@ db = SQLAlchemy(app)
 """
 !!! NOTICE
 to init db go to console and run:
->>> python
+python
 >>> from app.app import db
 >>> db.create_all()
 >>> exit()
